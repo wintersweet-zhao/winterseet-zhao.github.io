@@ -1,102 +1,76 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>青梅羡酒</title>
-    <p>羡青山有思，白鹤忘机</p>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5fffa;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 30px;
-            text-align: center;
-        }
-        .box {
-            background-color: #ffffff;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .header {
-            background-color: #008000;
-            color: #ffffff;
-            padding: 20px;
-        }
-        .header img {
-            max-width: 100%;
-        }
-        .bio {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .contact {
-            margin-top: 30px;
-            font-size: 18px;
-        }
-        .contact a {
-            color: #008000;
-            text-decoration: none;
-        }
-        .papers, .projects, .paintings, .stories, .daily {
-            margin-top: 30px;
-        }
-        .papers a, .projects a, .paintings a, .stories a, .daily a {
-            color: #008000;
-            text-decoration: none;
-        }
-        .paintings img {
-            max-width: 100%;
-        }
-    </style>
+    <title>个人简介</title>
+    <link href="***tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="touxiang.jpg" alt="我的头像">
-            <h1>欢迎来到我的个人网站</h1>
-        </div>
-        <div class="bio">
-            这是我的个人简介，让我来告诉你一些关于我的事情吧。
-        </div>
-        <div class="contact">
-            <ul>
-              <p>可以从这里发现我</p>
-              <li> <a href="https://www.zhihu.com/people/17366964983">知乎</a> </li>
-              <li> <a href="https://space.bilibili.com/603365850?spm_id_from=333.1007.0.0">我的哔哩哔哩</a> </li>
-            </ul>
-        </div>
-        <div class="papers">
-            <h2>我的论文</h2>
-            <a href="***" target="_blank" rel="noopener noreferrer">论文一</a>
-            <a href="******/paper2.pdf" target="_blank" rel="noopener noreferrer">论文二</a>
-        </div>
-        <div class="projects">
-            <h2>我的项目</h2>
-            <a href="***" target="_blank" rel="noopener noreferrer">项目一</a>
-            <a href="***" target="_blank" rel="noopener noreferrer">项目二</a>
-        </div>
-        <div class="paintings">
-            <h2>绘画板</h2>
-            <a href="***" target="_blank" rel="noopener noreferrer"><img src="***" alt="绘画一"></a>
-            <a href="***" target="_blank" rel="noopener noreferrer"><img src="***.jpg" alt="绘画二"></a>
-          </div>
-        <div class="stories">
-            <h2>Some Story</h2>
-            <a href="***" target="_blank" rel="noopener noreferrer">故事一</a>
-            <a href="***" target="_blank" rel="noopener noreferrer">故事二</a>
-        </div>
-        <div class="daily">
-            <h2>Daily</h2>
-            <a href="***" target="_blank" rel="noopener noreferrer">故事一</a>
-            <a href="***" target="_blank" rel="noopener noreferrer">故事二</a>
-        </div>
-      </div>
-    </body>
-</html>
 
+<body class="bg-green-400">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col items-center">
+                <img src="touxiang,jpg" alt="头像" class="rounded-full w-40 h-40">
+                <div class="mt-4 text-xl font-bold">个人简介</div>
+            </div>
+            <div class="flex flex-row justify-center items-center mt-8">
+                <div class="w-1/2">
+                    <div class="text-xl font-bold">我的论文</div>
+                    <ul>
+                        <li>论文1</li>
+                        <li>论文2</li>
+                        <li>论文3</li>
+                    </ul>
+                </div>
+                <div class="w-1/2">
+                    <div class="text-xl font-bold">我的项目</div>
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr>
+                                <th class="py-2 px-4 bg-green-500 font-bold">项目名称</th>
+                                <th class="py-2 px-4 bg-green-500 font-bold">项目简介</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-2 px-4">项目1</td>
+                                <td class="py-2 px-4">项目1简介</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4">项目2</td>
+                                <td class="py-2 px-4">项目2简介</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4">项目3</td>
+                                <td class="py-2 px-4">项目3简介</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4">项目4</td>
+                                <td class="py-2 px-4">项目4简介</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4">项目5</td>
+                                <td class="py-2 px-4">项目5简介</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4">项目6</td>
+                                <td class="py-2 px-4">项目6简介</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="flex flex-row justify-center items-center mt-8">
+                <div class="text-xl font-bold">联系我</div>
+                <div class="flex flex-row justify-center items-center">
+                    <a href="***" class="text-blue-700 hover:underline">LinkedIn</a>
+                    <a href="***" class="ml-4 text-blue-700 hover:underline">Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
